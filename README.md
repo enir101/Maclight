@@ -16,7 +16,14 @@ QOL Improvements for Mac on Moonlight
 
 ### Windows (C#)
 
-1. **Build the executable**
+1. **Install .NET SDK**
+   If you don’t have .NET installed, you can install it via Homebrew (macOS) or download it for Windows:
+
+   ```bash
+   brew install --cask dotnet-sdk
+   ```
+
+2. **Build the executable**
    Open a terminal and run:
 
    ```bash
@@ -25,9 +32,9 @@ QOL Improvements for Mac on Moonlight
 
    This will generate a self-contained `PauseRemapper.exe` file.
 
-2. **Copy the executable to your Windows machine.**
+3. **Copy the executable to your Windows machine.**
 
-3. **Add to Task Scheduler**
+4. **Add to Task Scheduler**
 
    * Press `Win + R`, type `taskschd.msc`, and hit Enter.
    * Click **Create Task** (do **not** select "Create Basic Task").
