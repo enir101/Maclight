@@ -24,6 +24,12 @@ QOL Improvements for Mac on Moonlight
    ```
 
 2. **Build the executable**
+   Create a new project:
+   ```bash
+   dotnet new console -n PauseRemapper
+   cd PauseRemapper
+   ```
+   
    Open a terminal and run:
 
    ```bash
@@ -32,9 +38,9 @@ QOL Improvements for Mac on Moonlight
 
    This will generate a self-contained `PauseRemapper.exe` file.
 
-3. **Copy the executable to your Windows machine.**
+4. **Copy the executable to your Windows machine.**
 
-4. **Add to Task Scheduler**
+5. **Add to Task Scheduler**
 
    * Press `Win + R`, type `taskschd.msc`, and hit Enter.
    * Click **Create Task** (do **not** select "Create Basic Task").
