@@ -30,6 +30,12 @@ QOL Improvements for Mac on Moonlight
    dotnet new console -n PauseRemapper
    cd PauseRemapper
    ```
+
+   
+3. Install Deps
+   ```bash
+   dotnet add package System.Windows.Forms
+   ```
    
    Open a terminal and run:
 
