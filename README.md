@@ -24,6 +24,7 @@ QOL Improvements for Mac on Moonlight
    ```
 
 2. **Build the executable**
+
    Create a new project:
    ```bash
    dotnet new console -n PauseRemapper
